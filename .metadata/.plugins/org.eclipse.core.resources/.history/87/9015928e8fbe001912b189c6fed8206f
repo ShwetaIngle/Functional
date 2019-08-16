@@ -1,0 +1,18 @@
+package com.bridglabz.day2;
+
+public class HarmonicNumber {
+	
+	public static void main(String[] args) {
+		
+		int n=Integer.parseInt(args[0]);
+		double hn=0;
+		
+		for(int i=1;i<=n;i++)
+		{
+			hn=hn+(1/i);
+			
+		}
+			System.out.println(hn);
+	}
+
+}

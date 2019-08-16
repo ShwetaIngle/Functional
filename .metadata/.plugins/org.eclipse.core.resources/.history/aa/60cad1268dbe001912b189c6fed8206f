@@ -1,0 +1,20 @@
+package com.bridglabz.day2;
+
+public class PowerOf2 {
+
+	public static void main(String[] args) {
+		
+		int n=Integer.parseInt(args[0]);
+		int table=0;
+		
+		for(int i=1;i<n;i++)
+		{
+			for(int j=1;j<=10;j++)
+			{
+				table=i*j;
+				System.out.println(table);
+			}
+		}
+		
+	}
+}

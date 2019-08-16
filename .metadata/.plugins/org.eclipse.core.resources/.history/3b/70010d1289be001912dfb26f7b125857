@@ -1,0 +1,61 @@
+package com.bridgelabz.utility;
+
+public class Utility {
+	
+	public double windchill(double t,double v) {
+		double w=35.74+ (0.6215*t) + (0.4275*t -35.75) * Math.pow(v,0.16);
+		return w;
+	}
+
+	public double CelsiusToFahrenheit(double c){
+		double f=(c*(9/5)+32);
+		return f;
+	}
+	public double FahrenheitToCelsius(double f) {
+		double t=(f-32)*5/9;
+		return t;
+	}
+	//*********************************************************
+	public double SinFunction(double a) {
+		double s=Math.sin(a);
+		return s;
+	}
+	public double CosFunction(double a) {
+		double c=Math.cos(a);
+		return c;
+	}
+	public double TanFunction(double a) {
+		double t=Math.tan(a);
+		return t;
+	}
+	//*********************************************************
+	
+	public void CoinFlip(int n) {
+		int chead=0,ctail=0;
+		for(int i=0;i<n;i++) {
+			if(Math.random()<=0.5)
+			{
+				System.out.println("head");
+				chead++;
+			}
+				else {
+					System.out.println("tail");
+					ctail++;
+				}
+				
+		}
+		double phead=(chead/n)*100;
+		double ptail=(ctail/n)*100;
+		
+		System.out.println("percentage of head: "+phead+ "perceatage of tail: "+ptail);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

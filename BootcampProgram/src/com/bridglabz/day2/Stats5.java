@@ -1,0 +1,25 @@
+package com.bridglabz.day2;
+
+public class Stats5 {
+
+	public static void main(String[] args) {
+		double a= (Math.random());
+		int b=  0+ (int)(Math.random()*5);
+		int c=  0+ (int)(Math.random()*5);
+		int d=  0+ (int)(Math.random()*5);
+		int e=  0+ (int)(Math.random()*5);
+		
+		System.out.println("A="+a);
+		System.out.println("B="+b);
+		System.out.println("C="+c);
+		System.out.println("D="+d);
+		System.out.println("E="+e);
+		
+		System.out.println("Min="+(Math.min(a, Math.min(b, Math.min(c, Math.min(d,e))))));
+		System.out.println("Max="+(Math.max(a, Math.max(b, Math.max(c, Math.max(d,e))))));
+		
+		double avg=(a+b+c+d+e)/5;
+		System.out.println("Average= "+avg);
+	}
+
+}

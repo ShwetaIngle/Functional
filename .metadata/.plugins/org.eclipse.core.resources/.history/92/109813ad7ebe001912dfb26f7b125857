@@ -1,0 +1,25 @@
+package com.bridglabz.day2;
+import com.bridgelabz.utility.*;
+import java.util.*;
+
+public class TemperatureConversion {
+
+	public static void main(String[] args) {
+		 Utility x=new Utility();
+		 
+		 Scanner s=new Scanner(System.in);
+		 
+		 System.out.println("Enter the choice: 1.temperature in Celsius  2.temperature in Fahrenheit ");
+		 int  ch=s.nextInt();
+		 
+		 switch(ch)
+		 {
+		 case 1:{
+			 	
+		 	} 
+		 }
+		 
+	s.close(); 
+	}
+
+}

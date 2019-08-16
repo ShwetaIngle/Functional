@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.bridglabz.day2;
+
+/**
+ * @author slot2
+ *
+ */
+public class HarmonicNumber {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.util.*;
+public class PrintThreeNames {
+
+	public static void main(String[] args) {
+		
+		Scanner x=new Scanner(System.in);
+		
+		System.out.println("Enter three names:");
+		String s1=x.nextLine();
+		
+		
+		System.out.println(s1);
+	}
+
+}

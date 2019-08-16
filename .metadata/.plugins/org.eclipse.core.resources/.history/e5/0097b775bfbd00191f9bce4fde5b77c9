@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+
+public class PrintThreeNames {
+
+	public static void main(String[] args) {
+		
+		Scanner x=new Scanner(System.in);
+		
+		System.out.println("Enter three names:");
+		String str=x.nextLine();
+		
+		String s[]=str.split(" ");
+		String s1=(Arrays.toString(s));
+		String s2=(Arrays.toString(s));
+		String s3=(Arrays.toString(s));
+		
+		System.out.println(s3+" "+s2+" "+s1);
+		x.close();
+	}
+
+}

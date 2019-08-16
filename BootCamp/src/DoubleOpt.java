@@ -1,0 +1,21 @@
+import java.util.*;
+public class DoubleOpt {
+
+	public static void main(String[] args) {
+Scanner x=new Scanner(System.in);
+		
+		System.out.println("Enter three numbers:");
+		double a=x.nextDouble();
+		double b=x.nextDouble();
+		double c=x.nextDouble();
+		
+		System.out.println("(a+b*c)="+(a+b*c));
+		System.out.println("(a*b+c)="+(a*b+c));
+		System.out.println("(c+a/b)="+(c+a/b));
+		System.out.println("(a%b+c)="+(a%b+c));
+		
+		x.close();
+
+	}
+
+}

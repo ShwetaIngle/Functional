@@ -1,0 +1,20 @@
+package com.bridglabz.day2;
+import java.util.*;
+import com.bridgelabz.utility.*;
+
+public class FlipCoin {
+
+	public static void main(String[] args) {
+		
+		Utility u=new Utility();
+		
+		Scanner x=new Scanner(System.in);
+		System.out.println("Enter how many times u want to flip coin: ");
+		int n=x.nextInt();
+		
+		u.CoinFlip(n);		
+		
+		x.close();
+	}
+
+}
